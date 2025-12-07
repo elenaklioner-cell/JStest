@@ -1,0 +1,19 @@
+li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+li span {
+  flex: 1;
+}
+
+li input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li button {
+  cursor: pointer;
+}
